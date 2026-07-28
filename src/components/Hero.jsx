@@ -2,11 +2,9 @@ import { useRef } from 'react';
 import useSpotlightReveal from '../hooks/useSpotlightReveal';
 import './Hero.css';
 
-const HEADLINE = 'I build compelling visual stories & motion that make ideas shine.';
-const BASE_IMAGE_URL =
-  'https://soft-zoom-63098134.figma.site/_assets/v11/5c9f982199fde1d9b85a20e5396f0fa7bacaf9a3.png?w=2560';
-const REVEAL_IMAGE_URL =
-  'https://soft-zoom-63098134.figma.site/_assets/v11/6be2165e31648955b4e071f4cf2a50bc572b9bfd.png?w=1536';
+const HEADLINE = 'Creo historias visuales y animaciones cautivadoras que hacen que las ideas brillen.';
+const BASE_IMAGE_URL = 'public/dani-light.jpeg';
+const REVEAL_IMAGE_URL = 'public/dani-dark.jpeg';
 
 function ArrowIcon({ size = 18 }) {
   return (

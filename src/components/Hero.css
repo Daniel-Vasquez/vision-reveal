@@ -238,16 +238,17 @@
 }
 
 .hero-headline {
-  font-size: 22px;
+  font-size: 48px;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: -0.02em;
-  color: #111111;
-  max-width: 447px;
+  color: white;
+  text-shadow: -2px 2px 2px black;
+  max-width: 547px;
 }
 @media (min-width: 768px) {
   .hero-headline {
-    font-size: 28px;
+    font-size: 38px;
   }
 }
 
