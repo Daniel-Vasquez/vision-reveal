@@ -3,8 +3,8 @@ import useSpotlightReveal from '../hooks/useSpotlightReveal';
 import './Hero.css';
 
 const HEADLINE = 'Creo historias visuales y animaciones cautivadoras que hacen que las ideas brillen.';
-const BASE_IMAGE_URL = './public/dani-light.jpeg';
-const REVEAL_IMAGE_URL = './public/dani-dark.jpeg';
+const BASE_IMAGE_URL = '/dani-light.jpeg';
+const REVEAL_IMAGE_URL = '/dani-dark.jpeg';
 
 function ArrowIcon({ size = 18 }) {
   return (
